@@ -1,0 +1,128 @@
+body {
+	width:100%;
+}
+.acc {
+	width:90%;
+	font-family: sans-serif;
+	background-color: #bbb;
+	display: -webkit-flex;
+	flex-flow: column;
+	border-radius: 30px;
+	margin:auto;
+
+
+}
+.score {
+	-webkit-flex: 80px 1;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	text-align: center;
+	-webkit-justify-content: center;
+	flex-flow: column;
+	color: white;
+	font-weight: bold;
+	font-size: 70px;
+	text-shadow: 2px 2px 2px gray;
+
+
+}
+
+.accctrl {
+	display: -webkit-flex;
+	background-color: lightgray;
+	border-radius: 0px 0px 30px 30px;
+
+}
+
+.banknotes {
+	-webkit-flex: 2;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	padding: 10px;
+
+}
+
+.bankctrl {
+	-webkit-flex: 1;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	text-align: center;
+	-webkit-justify-content: center;
+	flex-flow: column;
+}
+
+.plusminus {
+	width:80%;
+	%background-color: lightgray;
+
+}
+
+.plus {
+	height: 30px;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+	-webkit-justify-content: center;
+	border: 2px solid black;
+	border-radius: 25px 25px 0px 0px;
+	text-shadow: 2px 2px 2px gray;
+
+	
+
+}
+
+.minus {
+	height: 30px;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	margin: 10px;
+	color: white;
+	font-weight: bold;
+	-webkit-justify-content: center;
+	border: 2px solid black;
+	border-radius:  0px 0px 25px 25px;
+	text-shadow: 2px 2px 2px gray;
+
+}
+.rst {
+	width:70%;
+	height: 30px;
+	margin-top:20px;
+	margin-bottom: 10px;
+	border: 2px solid black;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	font-weight: bold;
+	-webkit-justify-content: center;
+}
+
+.qty {
+	background-color: white;
+	font-size: 25px;
+	height:40px;
+	border: 2px solid black;
+	margin:10px;
+	display: -webkit-flex;
+	-webkit-align-items: center;
+	font-weight: bold;
+	-webkit-justify-content: center;
+	color: black;
+}
+
+.note {
+
+	display: -webkit-flex;
+	-webkit-flex: 25% 1;
+	-webkit-align-items: center;
+	background-color: green;
+	margin-right: 10px;
+	color: white;
+	height: 70px;
+	font-weight: bold;
+	-webkit-justify-content: center;
+	font-size: 30px;
+
+
+}

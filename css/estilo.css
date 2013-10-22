@@ -1,0 +1,87 @@
+body{
+	font-family: sans-serif;
+}
+.acc_cont{
+	
+	height:70%;
+	background-color: yellow;
+	border-radius: 20px;
+
+}
+.moneydisplay{
+	height: 30%;
+	text-align: center;
+	font-size: 70px;
+}
+
+.sect2 {
+	height:70%;
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	background-color: lightgray;
+	border-radius: 0px 0px 20px 20px;
+
+
+}
+.banknotes {
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+	width:60%;
+	background-color: gray;
+	border-radius: 0px 0px 0px 20px;
+	
+}
+.note{
+	margin:15px;
+	background-color: lightgray;
+	width: 90px;
+	text-align: center;
+	font-size: 45px;
+
+}
+
+.contr_cont {
+	display: flex;
+	width:40%;
+	display: -webkit-flex;
+	flex-flow: column;
+	-webkit-flex-flow: ;
+
+	align-self: center;
+	-webkit-align-self: center;
+	
+}
+.contrl {
+	width:70%;
+	margin:auto;
+}
+
+.plus {
+	border-radius: 8px 8px 0px 0px;
+	
+}
+.minus {
+	border-radius: 0px 0px 8px 8px;
+	
+}
+
+
+.plus, .minus{
+	font-size: 20px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: gray;
+}
+.qty{
+	font-size: 30px;
+	text-align: center;
+}
+.resetbutton{
+	margin-top: 20px;
+
+}
